@@ -1,0 +1,149 @@
+body {
+    color: #777;
+}
+
+/* navbar */
+.navbar {
+    margin-bottom: 0;
+    background-color: #009B77;
+    border: 0;
+    font-size: 14px !important;
+    border-radius: 0;
+    font-family: Montserrat, sans-serif;
+}
+.navbar li a, .navbar .navbar-brand  { 
+    color:  #DFE3EE !important;
+}
+.navbar-nav li a:hover {
+    color: #FFFFFF !important;
+    background-color: green !important;
+}
+
+.nav-tabs li a {
+    color: #FFFFFF;
+    background-color: #009B77;
+}
+
+.navbar-default .navbar-toggle {
+    border-color: transparent;
+}
+/*img {
+    opacity: 0.7;
+}*/
+
+/* well */
+.well {
+    background-color:  #009B77;
+    color: #fff;
+}
+
+
+/* panel */
+.panel {
+    border: 1px solid #4285F4; 
+    border-radius:0.5 !important;
+    transition: box-shadow 0.5s;
+    border-radius: 0.5;
+}
+
+.panel-heading {
+    color: #fff !important;
+    background-color: #3F729B !important;
+    padding: 15px;
+    border-bottom: 1px solid transparent;
+    border-radius: 0px 0px 0px 0px;
+}
+.panel-body {
+    color: #292F33;
+}
+.panel-footer{
+    background-color:  #DFE3EE;
+}
+
+/* modal */
+.modal-header, h3, .close {
+    background-color: #009B77;
+    color: #FFFFFF !important;
+    text-align: center;
+}
+
+/* Set height of the grid so .sidenav can be 100% (adjust as needed) */
+.row.content {height: 200px}
+    
+/* Set gray background color and 100% height */
+.sidenav {
+    padding-top: 20px;
+    background-color:  #4285F4;
+    height: 100%;
+}
+/* On small screens, set height to 'auto' for sidenav and grid */
+@media screen and (max-width: 767px) {
+    .sidenav {
+        height: auto;
+        padding: 15px;
+    }
+    .row.content {height:auto;} 
+}
+
+/* dropdown */
+.open .dropdown-toggle {
+    color: #fff;
+    background-color: #7CBB00 !important;
+}
+.dropdown-menu li a {
+    color: #292F33 !important;
+}
+.dropdown-menu li a:hover {
+    background-color:  #FFBB00  !important;
+}
+
+
+/* badge*/
+.badge.badge-secondary {
+    background-color: #ee4749;
+    color: #ffffff;
+}
+
+#display-search {
+    background-color: #7CBB00 !important;
+    display: none;
+    border-color: #ccc;
+    position: relative;
+    border-radius: 4px;
+    border-style: solid;
+    border-width: 1px;
+    box-shadow: 0 1px 2px rgba(0, 0, 0, 0.1) inset;
+    float: none;
+    padding: 5px 0 5px;
+}
+#display-search a {
+    display: block;
+    padding-left: 15px;
+}
+#list-doc a {
+    display: block;
+    padding-left: 15px;
+    color: #292F33 !important;
+}
+a:hover {
+    box-shadow: none;
+    background-color: #009900 !important;
+    opacity: 0.9;
+    display: block;
+    padding-left: 15px;
+}
+#list-result {
+    display: none;
+}
+#logs {
+    background-color: white;
+    color: #221F1F;
+    margin-bottom: 10px;
+    border-radius: 4px;
+    width: 100%;
+}
+
+.tooltip > .tooltip-inner {
+    max-width: 1000px;
+}
+
